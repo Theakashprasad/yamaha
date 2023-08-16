@@ -1,0 +1,176 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav1stbox{
+    height: 100%;
+    width: 70px;
+}
+.nav2ndbox{
+    display: flex;
+    width: 700px;
+    align-items: center;
+}
+.nav2ndbox a{
+    text-decoration: none;
+}
+.nav3rdbox{
+    /* background-color: rgb(16, 16, 3); */
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.bluebox{
+    background-color: rgb(70, 103, 236);
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.mainimg{
+    height: 854px;
+    background-image: url(main.jpg);
+    background-repeat: no-repeat ;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainimgbox{
+    height: 200px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    
+}
+.mainimgbox button{
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    border: none;
+}
+.vehicle-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 1320px;
+    justify-content: center;
+    margin: 6rem auto;
+}
+.vehicl{
+    position: relative;
+   
+}
+.vehicl h3{
+    position: absolute;
+    bottom: 15%;
+    left: 35%;
+    color: white;
+    font-weight: 100px;
+    text-decoration: underline crimson ;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+    
+}
+.vehicl :hover{
+ text-underline-offset: 5px;
+}
+
+.midmainbox{
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.midbox{
+    height: 60%;
+    width: 25%;
+    text-align: center;
+    font-size: larger;
+}
+.midbox button{
+    background: #c80226;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: no;
+    border-color:red;
+    font-size: 15px;
+}
+.mainfooter1stbox{
+    background-color: #222b33;
+    height: 354px;
+    display: flex;
+    color: white;
+    line-height: 30px;
+    padding-top: 40px;
+}
+.mainfooterbox ul li{
+    list-style-type: none;
+}
+.top button{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+.footer2ndbox{
+    height: 125px;
+    background-color: #222b33;    
+}
+
+.footer3rdbox{
+    height: 117px;
+    background-color: #222b33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer3rdbox-inside{
+    height: 55px;
+    width: 95%;
+    background-color: #222b33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-top: 2px solid rgb(205, 194, 194);
+    
+}
+.insidebox1{
+    margin: 0;
+    display: flex; 
+    width: 30%;
+    background-color: #222b33;
+}
+.insidebox1 a{
+    color: white;
+}
+.insidebox2{
+    height: 55px;
+    width: 25%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    
+}
